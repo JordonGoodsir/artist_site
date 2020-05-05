@@ -1,0 +1,164 @@
+/* home page start */
+
+.base_page { 
+    background-color: #25272A; 
+    color: #F5F8FC
+} 
+
+.selector { 
+    width:20%; 
+    float:right; 
+    font-size:30px
+} 
+
+a { 
+    text-decoration: none;
+}
+
+a:visited { 
+    color: #F5F8FC; 
+}
+
+a:hover {  
+    color: #D38112;  
+} 
+
+#current_page { 
+    width:70%; 
+    font-size:30px 
+} 
+
+
+.discover_info_position {  
+    float:left;
+    margin-left: 200px; 
+    margin-right: 200px;  
+} 
+
+.bio_info_position { 
+    float:right; 
+    margin-right: 200px; 
+    margin-left: 200px; 
+    } 
+
+h2 {  
+    font-size: 210%
+ 
+}  
+
+#bio_center { 
+margin-right:360px; 
+color: #D38112
+} 
+
+#discover_center { 
+margin-left: 270px; 
+color: #D38112
+}
+
+p {  
+    width:20%
+
+}
+
+/* home page end */ 
+
+/* discover page start */ 
+
+#album_heading { 
+    text-align: center;   
+    font-size:30px;
+}  
+
+#image_box {  
+    background-color: black;
+    padding: 20px;
+}
+
+
+#race_image {  
+    float: right;
+    background-color: black;
+    padding: 55px; 
+    margin: 20px 200px 0px 200px;
+    
+
+} 
+
+#good_image {  
+    float: left; 
+    background-color: black;
+    padding: 55px; 
+    margin: 20px 200px 0px 200px;
+
+}  
+
+
+#race_heading { 
+margin-right: 280px; 
+margin-left: 500px; 
+margin: 0px 200px 0px 330px; 
+background-color: black;
+padding: 20px 80px 10px 102px;
+float: right;  
+
+}
+
+#good_heading { 
+margin: 0px 120px 0px 200px;
+float: left;  
+background-color: black;
+padding: 20px 56px 10px 60px; 
+
+}
+
+#race_text1 { 
+    float: right; 
+    background-color: black;
+    padding: 0px 20px 20px 20px; 
+    margin-top: 0px; 
+    margin-right: 200px
+}
+
+#good_text1 {  
+    float: left; 
+    margin-left: 201px; 
+    background-color: black;
+    padding: 0px 20px 20px 20px;  
+    margin-top: 0px
+}
+ 
+
+#race_text2 { 
+    float: right; 
+    background-color: black;
+    padding: 0px 20px 20px 71px;  
+    margin-top: 0px 
+}
+
+#good_text2 {  
+    float: left;  
+    margin-top: 0px;
+    margin-right: 170px; 
+    background-color: black;
+    padding: 0px 20px 110px 20px; 
+}  
+
+/* try box-sizing: border-box; , could make life much much easier */
+
+
+/* discover page end */ 
+
+/* bio start */  
+
+.greet1 { 
+    background-color: black; 
+    width: 200px;  
+    padding: 20px; 
+    margin: 100px 400px 100px 352px; 
+    box-sizing: border-box; 
+    float:left 
+}   
+
+
+/* bio end */
